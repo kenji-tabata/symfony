@@ -23,6 +23,6 @@ Execute o servidor embutido para testar o projeto com o comando...
 
 ## Documentação
 
-[Instalação do Symfony](doc/instalacao.md)
-
-[Configuração do Apache](doc/configuracao.md)
++ [Instalação do Symfony](doc/instalacao.md)
++ [Configuração do Apache](doc/configuracao.md)
++ [Iniciando o projeto](doc/iniciando.md)
