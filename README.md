@@ -29,5 +29,5 @@ Execute o servidor embutido para testar o projeto com o comando...
 + [Funções do Controller](doc/funcoes.md)
 + [Adicionando arquivos estáticos](doc/arquivos-estaticos.md)
 + [Iniciando com Banco de dados](doc/database.md)
-+ [Persistindo dados](doc/persistindo.md)
++ [Manipulando dados](doc/manipulando.md)
 + [Criando um Bundle](doc/bundle.md)
