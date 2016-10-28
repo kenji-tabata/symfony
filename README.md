@@ -25,4 +25,7 @@ Execute o servidor embutido para testar o projeto com o comando...
 
 + [Instalação do Symfony](doc/instalacao.md)
 + [Configuração do Apache](doc/configuracao.md)
-+ [Iniciando o projeto](doc/iniciando.md)
++ [Iniciando com o Controller e Route](doc/iniciando.md)
++ [Funções do Controller](doc/funcoes.md)
++ [Adicionando arquivos estáticos](doc/arquivos-estaticos.md)
++ [Criando um Bundle](doc/bundle.md)
