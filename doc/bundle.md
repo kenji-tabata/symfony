@@ -11,4 +11,4 @@ Ao executar este comando será disparado algumas perguntas sobre a configuraçã
 componente que está sendo criado.
 
 Após confirmar responder as perguntas o Bundle será criado na pasta `src` do seu projeto e o 
-Bundle será registrado no arquivo `app/AppKernel.php`
+Bundle será registrado no arquivo `app/AppKernel.php`, `app/config/routing.yml` e `app/config/config.yml`.
