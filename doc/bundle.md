@@ -5,7 +5,7 @@ os arquivos (PHP, Javascript, CSS e etc) necessário para um componente funciona
 
 Para criar Bundles automaticamente utilizamos o comando...
 
-    php bin/console generate:bundle
+    $ php bin/console generate:bundle
 
 Ao executar este comando será disparado algumas perguntas sobre a configuração e o nome do 
 componente que está sendo criado.

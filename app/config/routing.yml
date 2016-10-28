@@ -1,3 +1,8 @@
+app_foo:
+    resource: "@AppFooBundle/Controller/"
+    type:     annotation
+    prefix:   /foo/
+
 app:
     resource: "@AppBundle/Controller/"
     type:     annotation
