@@ -37,7 +37,7 @@ Adicionamos o arquivo Product na pasta Entity do Bundle
         private $description;
     }
 
-Para adicionarmos a Entity class Product na database adicionamos as annotations do Doctrine 
+Para criar uma Entity class `Product` na database, adicionamos as Annotations do Doctrine 
 com as configurações de cada campo...
 
     // src/AppBundle/Entity/Product.php
@@ -74,6 +74,14 @@ com as configurações de cada campo...
         private $description;
     }
 
+Para maiores informações sobre os tipos de cada campo e como mapear uma Entity class acesse o link:
+
+http://docs.doctrine-project.org/projects/doctrine-orm/en/latest/reference/basic-mapping.html#property-mapping
+
+
+
+### Adicionando métodos Get/Set
+
 Após configuramos as variáveis do Entity class será preciso criar as funções get/set, execute o 
 código abaixo para gerar automaticamente as funções get/set da Entity class.
 
@@ -83,6 +91,10 @@ código abaixo para gerar automaticamente as funções get/set da Entity class.
     //Para gerar o get/set para todas as Entity class do Bundle utilize o comando abaixo
     $ php bin/console doctrine:generate:entities AppBundle
 
+
+
+### Criando a tabela `Product` na database
+
 Com a Entity class mapeada podemos adicionar a tabela no banco de dados com o comando...
 
     $ php bin/console doctrine:schema:update --force
@@ -91,8 +103,14 @@ Com a Entity class mapeada podemos adicionar a tabela no banco de dados com o co
 
 ## Criando pelo console a Entity class
 
-Com comando abaixo podemos criar a Entity class automaticamente ao responder perguntas sobre 
-as propriedades da Entity class
+http://tableless.com.br/iniciando-com-symfony-2-parte-03/
+
+Com comando abaixo o console do Symfony se encarrega de criar a Entity class com todas as
+propriedades e gets/sets automaticamente ao executar o comando `doctrine:generate:entity`.
+
+Ao executar o comando no console será disparado algumas perguntas, como o nome da Entity class 
+e o nome e o tipo da propriedade, ao terminar a inserção das informações sobre cada campo a 
+Entity class será criada.
 
     $ php bin/console doctrine:generate:entity
 
