@@ -37,7 +37,7 @@ Adicionamos o arquivo Product na pasta Entity do Bundle
         private $description;
     }
 
-Para persistirmos a Entity class Product na database adicionamos as annotations do Doctrine 
+Para adicionarmos a Entity class Product na database adicionamos as annotations do Doctrine 
 com as configurações de cada campo...
 
     // src/AppBundle/Entity/Product.php
